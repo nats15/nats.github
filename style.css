@@ -192,21 +192,18 @@ nav > ul > li:hover .submenu li{
 
 
 /* Estilos del formulario */
-main p{
-    display: flex;
+main{
+     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .formulario {
-    max-width: 200px;
+    max-width: 600px;
     margin: 0 auto;
     background: #eef7ff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .form-group {

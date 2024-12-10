@@ -152,7 +152,7 @@ nav > ul > li:hover .submenu li{
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 6px rgba(160, 98, 98, 0.1);
 }
 
 .servicios ul {
@@ -170,7 +170,9 @@ nav > ul > li:hover .submenu li{
 .section {
     position: relative;
     padding: 60px 20px;
-
+    
+}
+.section instalaciones{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -190,6 +192,11 @@ nav > ul > li:hover .submenu li{
 
 
 /* Estilos del formulario */
+main p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .formulario {
     max-width: 600px;
     margin: 0 auto;
@@ -197,6 +204,9 @@ nav > ul > li:hover .submenu li{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .form-group {
@@ -263,6 +273,7 @@ textarea {
     padding: 40px 20px;
     font-size: 0.9em;
     text-align: center;
+    
 }
 
 .footer-container {
@@ -279,6 +290,7 @@ textarea {
     flex: 1;
     margin: 10px;
     min-width: 200px;
+    
     
 }
 

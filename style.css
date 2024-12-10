@@ -192,8 +192,13 @@ nav > ul > li:hover .submenu li{
 
 
 /* Estilos del formulario */
-main{
-     display: flex;
+main h2 p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main .formulario{
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }

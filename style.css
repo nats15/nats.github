@@ -330,6 +330,7 @@ textarea {
 
 /* PAGINA DETALLES */
 /* SECCION 1 */
+
 section{
     padding: 20px;
     text-align: center;
@@ -363,7 +364,9 @@ section > p{
 .d_contain_cards img{
     max-width: 100%;
 }
-
+.conte{
+    display: flex;
+}
 /* SECCION 2 */
 .d_sec2{
     border: none;

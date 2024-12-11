@@ -189,19 +189,13 @@ nav > ul > li:hover .submenu li{
     background: #00509e;
     border-radius: 2px;
 }
-
+.encuesta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 /* Estilos del formulario */
-main h2 p{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-main .formulario{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 .formulario {
     max-width: 600px;
     margin: 0 auto;
@@ -396,6 +390,8 @@ section > p{
 }
 .conte{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 /* SECCION 2 */
 .d_sec2{

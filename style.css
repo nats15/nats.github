@@ -189,13 +189,14 @@ nav > ul > li:hover .submenu li{
     background: #00509e;
     border-radius: 2px;
 }
+
+/* Estilos del formulario */
 .encuesta{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-/* Estilos del formulario */
 .formulario {
     max-width: 600px;
     margin: 0 auto;
@@ -446,4 +447,39 @@ aside{
 }
 aside img{
     max-width: 100%;
+}
+/* ventana dialogo */
+dialog{
+    background-color: #3f3f3fb2;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    border: none;
+    z-index: 1000;
+}
+.flotante{
+    background-color: #d7e9f7;
+    max-width: 400px;
+    position: relative;
+    margin: 10% auto;
+
+}
+.flotante img{
+    max-width: 100%;
+}
+.flotante h2{
+    margin: 15px;
+    color: #ff0000;
+}
+.btn_modal{
+    width: 50px;
+    background-color: #000000;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
